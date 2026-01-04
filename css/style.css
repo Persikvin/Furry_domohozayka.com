@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #cfdcc3;
+  color: #000;
+}
+
+.top-banner {
+  background: #b00000;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.top-banner .search {
+  float: right;
+}
+
+.top-banner input,
+.top-banner button {
+  font-size: 11px;
+}
+
+header {
+  background: linear-gradient(#e6f0ff, #b5d3ff);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #7aa6d8;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0;
+  color: #003399;
+  text-shadow: 1px 1px #fff;
+}
+
+nav {
+  background: #2f8f2f;
+  padding: 6px;
+  border-bottom: 2px solid #1f6f1f;
+}
+
+nav a {
+  margin-right: 15px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  padding: 15px;
+}
+
+main {
+  display: table-cell;
+  width: 70%;
+  vertical-align: top;
+}
+
+aside {
+  display: table-cell;
+  width: 30%;
+  background: #eef4ff;
+  border: 1px solid #7aa6d8;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.recipe {
+  background: white;
+  border: 1px solid #7aa6d8;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.recipe h2 {
+  margin: 0 0 5px;
+  color: #003399;
+}
+
+.badge {
+  background: #ffcc00;
+  border: 1px solid #999;
+  padding: 2px 6px;
+  font-size: 11px;
+}
+
+footer {
+  background: #d6e6ff;
+  text-align: center;
+  font-size: 11px;
+  padding: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
